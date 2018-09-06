@@ -6,8 +6,8 @@ const SideNav = ({ data }) => {
   return (
     <nav className='docs__side-nav'>
       <ul>
-        {data.map(section => (
-          <li>
+        {data.map((section, i) => (
+          <li key={i}>
             {section.to ? (
               <Link to={section.to}>{section.title}</Link>
             ) : (
@@ -15,8 +15,8 @@ const SideNav = ({ data }) => {
             )}
             {section.items && (
               <ul>
-                {section.items.map(item => (
-                  <li><Link to={item.to}>{item.title}</Link></li>
+                {section.items.map((item, n) => (
+                  <li key={n}><Link to={item.to}>{item.title}</Link></li>
                 ))}
               </ul>
             )}

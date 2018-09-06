@@ -44,8 +44,6 @@ class LiveCode extends React.Component {
   render() {
     const { code } = this.props
 
-    console.log('live code', this.props)
-
     return (
       <LiveProvider code={code} scope={{...components}} mountStylesheet={false}>
         <CodeEditorLive />

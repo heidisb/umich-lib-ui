@@ -2,4 +2,4 @@
 title: "Heading"
 ---
 
-Heading docs .
+Heading docs.
