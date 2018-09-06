@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-offline',
+    `gatsby-transformer-json`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -15,7 +16,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'components',
+        name: 'umich-lib-components-react',
         path: `${__dirname}/../src/components`
       }
     },
@@ -30,7 +31,10 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-autolink-headers`],
+        plugins: [
+          `gatsby-remark-autolink-headers`,
+          `gatsby-remark-live-code'`
+        ],
       },
     }
   ],
