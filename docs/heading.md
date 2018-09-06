@@ -2,4 +2,4 @@
 title: "Heading"
 ---
 
-Heading docs to be written.
+Heading docs .
