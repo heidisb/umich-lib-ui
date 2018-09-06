@@ -1,6 +1,7 @@
 import React from "react"
 import rehypeReact from "rehype-react"
 import { Heading } from 'umich-lib-components-react'
+import LiveCode from './live-code'
 
 /**
   Headings
@@ -22,14 +23,14 @@ const Heading6 = ({ children, ...other }) => (
 )
 
 const renderAst = new rehypeReact({
-  createElement: React.createElement,
   components: {
     h2: Heading2,
     h3: Heading3,
     h4: Heading4,
     h5: Heading5,
     h6: Heading6,
-    p: ({children}) => <p className="text">{children}</p>
+    p: ({children}) => <p className="text">{children}</p>,
+    'live-code': (props) => <LiveCode {...props} />
   },
 
   // A workaround to replace the container div created by rehype-react with a React fragment.
