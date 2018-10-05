@@ -14,6 +14,10 @@ There is evidence that it would be useful for many teams or services. Evidence c
 
 It does not replicate something already in the Design System. If it’s intended to replace an existing style, component, or pattern, there is evidence to show that it’s better than the existing version.
 
+## Propose modifications to an existing style, component, or pattern
+
+This process is TBD. 
+
 ## Propose a style, component, or pattern
 
 ### 1. Check the backlog
@@ -22,7 +26,7 @@ Check if someone else has already suggested your idea or something similar on th
 
 If your idea is on the backlog and marked as ‘proposed’, follow the link and comment on the issue. Say you need the component or pattern and share any examples or evidence you have to support the proposal.
 
-### 2. Raise an issue
+### 1. Raise an issue
 
 If your idea is not on the backlog, [raise an issue using the template](https://github.com/mlibrary/umich-lib-ui/issues/new). A member of the Design System team will get in touch to discuss your proposal.
 
