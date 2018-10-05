@@ -1,11 +1,16 @@
 ---
-title: Get started
+title: Get setup
 ---
 
-To be written.
+The Design System is intentionally flexible. Use it from the start with a new project, incoporate it into an existing project, or use it piece-by-piece based on your needs. 
+
+Rest to be written.
 
 ## The tech you need to know
 
-## How to start a new project
+## Use for a new project
 
-## How to use the Design System with your existing project
+## Use with an existing project
+### Get your project ready
+
+## Use piece-by-piece
